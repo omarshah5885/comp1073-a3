@@ -13,6 +13,7 @@
 	// declare general object about me which will gather json data 
 	var omarInfo = {};
 	
+	console.log(omarInfo);
 	// parse the json file into object
 	omarInfo = JSON.parse(request.responseText);
 	
