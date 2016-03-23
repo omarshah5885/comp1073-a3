@@ -4,7 +4,7 @@
     "use strict";
 
 	var request = new XMLHttpRequest();
-	request.open('GET', '/json.txt', true);
+	request.open('GET', '../json.txt', true);
 	request.send();
 	request.addEventListener('readystatechange', function() {
 	// wait for response 
@@ -32,6 +32,12 @@
 		var aboutMe = document.getElementById( "aboutMe" + (number+1) );
 		// set the innerHTML of the tags to the strings from the index array
 		aboutMe.innerHTML = index[number];
+		
+		var project = document.getElementById("project" + (number+1));
+		project.innherHTML = project[number];
+		
+		var connect = document.getElementById("connect" + (number+1));
+		connect.innerHTML = contact[number];
 	}
 	
 	}
