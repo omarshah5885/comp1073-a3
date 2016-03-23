@@ -27,6 +27,12 @@
 	contact = omarInfo.contact_strings;
 	
 	// loop through each array 
+	for(var number=0; number<index.length; number++) {
+		// create a reference to the DOM
+		var aboutMe = document.getElementById( "aboutMe" + (number+1) );
+		// set the innerHTML of the tags to the strings from the index array
+		aboutMe.innerHTML = index[number];
+	}
 	
 	}
 	} );
