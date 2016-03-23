@@ -4,7 +4,7 @@
     "use strict";
 
 	var request = new XMLHttpRequest();
-	request.open('GET', 'Comp1073/a3/json.txt', true);
+	request.open('GET', '/json.txt', true);
 	request.send();
 	request.addEventListener('readystatechange', function() {
 	// wait for response 
