@@ -21,9 +21,12 @@
 	var projects = [];
 	var contact = [];
 	
-	// read the string arrays 
+	// read in the string arrays from the object
+	index = omarInfo.index_strings;
+	projects = omarInfo.projects_strings;
+	contact = omarInfo.contact_strings;
 	
-	// 
+	// loop through each array 
 	
 	}
 	} );

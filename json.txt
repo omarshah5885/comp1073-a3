@@ -5,7 +5,7 @@
 "Get In Touch!"
 ],
 
-"project_strings":[
+"projects_strings":[
 "This is a website I created for a product before the popularization of the internet. I chose to do it on the Nintendo NES game console. I used no framework for this project and all the layout was performed manually",
 "I created an interactive JavaScript game through a complex set of decision structures. The game is based on randomization and each choice has a different set of outcomes.",
 "A PHP coded assignment which links back to few databases I created using SQL. It is a list of NBA players with their stats and any user can add whoever he likes and get an email sent back to him confirming the record. Every input is validated to prevent datatype errors."
