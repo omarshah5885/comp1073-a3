@@ -61,8 +61,15 @@
 	margin: 0;
 	}
 
-	#connect1, #connect2 {
+#connect1 {
 		text-align: center;
+		font-weight: bold;
+}
+
+	#connect2 {
+		background: #454da1;
+		text-align: center;
+		font-weight: bold;
 	}
 
 	/*added background images to suit my theme*/
