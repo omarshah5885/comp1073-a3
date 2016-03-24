@@ -36,7 +36,7 @@
 					aboutMe.innerHTML = index[number];
 				} // end for loop 
 			} // end if 
-			else if (document.getElementById("project1")) {
+			else if ( document.getElementById("project1") ) {
 				// loop through each projects array elements to fill DOM 
 				for (var number = 0; number < projects.length; number++) {
 					// referencing project page DOM 
@@ -48,8 +48,11 @@
 				} // end loop
 			} // end else if 
 			else {
+				for (var number = 0; number < contact.length; number++) {
 				var connect = document.getElementById("connect" + (number + 1));
 				connect.innerHTML = contact[number];
+				}
+				
 			}
 
 		} // end readystate if 
