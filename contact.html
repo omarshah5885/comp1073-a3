@@ -44,38 +44,43 @@
 	</header>
 
 	<main class="container-fluid">
-		
 
-		<form>
-			<div class="row">
-			<h2 id="connect1" class="col-md-12">Connect</h2>
-			</div>
-			<div class="row">
-			<p id="connect2" >JS rendering</p>
-			</div>
-			
-			<div class="row form-group  col-md-8 col-md-offset-2">
-				<i class="fa fa-user "></i>
-				<input name="name" type="text" class="form-control" placeholder="Name" id="name" required>
-			</div>
-			<div class="row form-group col-md-8 col-md-offset-2">
-				<i class="fa fa-envelope"></i>
-				<input name="email" type="email" class="form-control" placeholder="Email" id="email" required >
-			</div>
-			<div class="row  form-group  col-md-8 col-md-offset-2">
-				<i class="fa fa-phone fa-lg"></i>
-				<input name="phone" type="tel" class="form-control" id="phone" placeholder="Phone (optional)">
-			</div>
-			<div class="row  form-group  col-md-8 col-md-offset-2">
-				<i class="fa fa-comment "></i>
-				<textarea name="comment" rows="5" class="form-control" placeholder="Comments..." id="comment" required></textarea>
-			</div>
-			<div class="row form-group  col-md-8 col-md-offset-2">
-				<input type="submit" class="btn btn-warning" id="submit">
+
+		<!--<div class="row">-->
+		<h2 id="connect1">Connect</h2>
+		<!--</div>-->
+
+		<div class="row">
+			<p id="connect2">JS rendering</p>
+		</div>
+
+
+		<form class="panel panel-default col-md-8 col-md-offset-2">
+			<div class="panel-body">
+				<div class="row form-group  col-md-8 col-md-offset-2">
+					<i class="fa fa-user "></i>
+					<input name="name" type="text" class="form-control" placeholder="Name" id="name" required>
+				</div>
+				<div class="row form-group col-md-8 col-md-offset-2">
+					<i class="fa fa-envelope"></i>
+					<input name="email" type="email" class="form-control" placeholder="Email" id="email" required>
+				</div>
+				<div class="row  form-group  col-md-8 col-md-offset-2">
+					<i class="fa fa-phone fa-lg"></i>
+					<input name="phone" type="tel" class="form-control" id="phone" placeholder="Phone (optional)">
+				</div>
+				<div class="row  form-group  col-md-8 col-md-offset-2">
+					<i class="fa fa-comment "></i>
+					<textarea name="comment" rows="5" class="form-control" placeholder="Comments..." id="comment" required></textarea>
+				</div>
+				<div class="row form-group  col-md-8 col-md-offset-2">
+					<input type="submit" class="btn btn-warning" id="submit">
+				</div>
 			</div>
 
 		</form>
 
+		<div id="map"></div>
 
 
 	</main>
@@ -83,6 +88,7 @@
 	<!--JS section-->
 	<script src="scripts/lib/jquery-2.2.0.min.js"></script>
 	<script src="scripts/lib/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 	<script src="scripts/xhr.js"></script>
 </body>
 

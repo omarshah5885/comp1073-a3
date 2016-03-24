@@ -83,6 +83,18 @@
 			//test function to prevent submit button functionality
 			event.preventDefault();
 			// location.href = "index.html";
+		// linking google maps API by creating the mapOptions object 
+		var mapOptions = {
+			center: new google.maps.LatLng(44.4120, 79.6678),
+			zoom: 12,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		// calling the Map() constructor and setting the map id and object as parameters
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		
+
+		
+		
 		});
 	} // end else if 
 
