@@ -43,7 +43,7 @@
 					var project = document.getElementById("project" + (number + 1));
 					// accessing project page DOM 
 					project.innherHTML = projects[number];
-					console.log(projects);
+					console.log(projects[number]);
 					console.log(project);
 				} // end loop
 			} // end else if 
