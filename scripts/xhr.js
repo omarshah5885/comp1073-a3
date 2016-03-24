@@ -49,8 +49,8 @@
 			} // end else if 
 			else {
 				for (var number = 0; number < contact.length; number++) {
-				var connect = document.getElementById("connect" + (number + 1));
-				connect.innerHTML = contact[number];
+					var connect = document.getElementById("connect" + (number + 1));
+					connect.innerHTML = contact[number];
 				}
 				
 			}
@@ -61,7 +61,7 @@
 	if (location.pathname.substring(location.pathname.lastIndexOf("/") + 1) == 'index.html') {
 
 		//onlick event created to link to my contact page once getintouch button is pressed
-		var button = document.getElementById("getintouch");
+		var button = document.getElementById("aboutMe3");
 		button.onclick = function() {
 			location.href = "contact.html";
 		};
