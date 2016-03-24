@@ -28,7 +28,7 @@
 			contact = omarInfo.contact_strings;
 
 
-			if (documnt.getElementById("aboutMe1")) {
+			if (document.getElementById("aboutMe1")) {
 				// loop through each index array elements to fill DOM  
 				for (var number = 0; number < index.length; number++) {
 					// referencing DOM id tags
