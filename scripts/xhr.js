@@ -13,7 +13,6 @@
 			// declare general object about me which will gather json data 
 			var omarInfo = {};
 
-			console.log(omarInfo);
 			// parse the json file into object
 			omarInfo = JSON.parse(request.responseText);
 
@@ -43,7 +42,8 @@
 					// referencing project page DOM 
 					var project = document.getElementById("project" + (number + 1));
 					// accessing project page DOM 
-					project.innherHTML = project[number];
+					project.innherHTML = projects[number];
+					console.log(projects);
 				} // end loop
 			} // end else if 
 			else {
