@@ -42,7 +42,7 @@
 					// referencing project page DOM 
 					var project = document.getElementById("project" + (number + 1));
 					// accessing project page DOM 
-					project.innherHTML = projects[number];
+					project.innerHTML = projects[number];
 					console.log(projects[number]);
 					console.log(project);
 				} // end loop
