@@ -53,6 +53,11 @@ p {
  }
 
 
+#map {
+  height: 100%;
+  margin: 0;
+}
+
 
 /*added background images to suit my theme*/
 header {
