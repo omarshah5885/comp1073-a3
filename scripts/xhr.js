@@ -83,23 +83,18 @@
 			//test function to prevent submit button functionality
 			event.preventDefault();
 			// location.href = "index.html";
-		// linking google maps API by creating the mapOptions object 
-var mapOptions = {
-    center: new google.maps.LatLng(37.7831, -122.4039),
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-};
-var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-
-var markerOptions = {
-    position: new google.maps.LatLng(37.7831, -122.4039)
-};
-var marker = new google.maps.Marker(markerOptions);
-marker.setMap(map);
-
-		
-		
+				
 		});
+		// linking google maps API by creating the mapOptions object 
+		var mapOptions = {
+			center: new google.maps.LatLng(44.4120, 79.6678),
+			zoom: 12,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		// calling the Map() constructor and setting the map id and object as parameters
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		
+
 	} // end else if 
 
 })();
