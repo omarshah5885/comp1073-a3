@@ -44,6 +44,7 @@
 					// accessing project page DOM 
 					project.innherHTML = projects[number];
 					console.log(projects);
+					console.log(project);
 				} // end loop
 			} // end else if 
 			else {
