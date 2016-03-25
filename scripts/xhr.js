@@ -1,4 +1,4 @@
-// 
+//xhr.js, Omar Shah, http://comp1073-a3.azurewebsites.net/index.html, xml http request js file.  
 (function() {
 
     "use strict";
