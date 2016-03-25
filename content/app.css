@@ -1,80 +1,7 @@
-	/*personalized CSS created by Omar Shah for site, http://comp1073-a3.azurewebsites.net/index.html which is a site about me and my works.*/
+/*personalized CSS created by Omar Shah for site, http://comp1073-a3.azurewebsites.net/index.html which is a site about me and my works.*/
 
-	img {
-		/*width: 100%;*/
-	}
-
-
-	.panel {
-		background: #454da1;
-		border-color: transparent;
-	}
-
-	/*setting font color to something readable*/
-	body, header, main, html {
-		color: #E8E8E8;
-	}
-
-
-	/*setting typography to my brand*/
-	h1, h2 {
-		text-shadow: 2px 2px 20px #4d4a47;
-		font-family: Garamond;
-	} 
-
-	p {
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
-		/*background: #191919;*/
-		/*opacity: .7;*/
-	}
-
-	/*change default bootstrap navbar color to my brand theme*/
-	.navbar {
-		background-image: none;
-		text-shadow: 2px 2px 20px #4d4a47;
-		font-family: Garamond;
-		font-size: 130%;
-		background-color: #181870;
-		border-color: #454da1;
-	}	
-
-
-	.navbar-default .navbar-nav>li>a {
-		color: #B3B8FF;	 
-	}
-
-	.navbar-default .navbar-nav > .active > a, 
-		.navbar-default .navbar-nav > .active > a:hover, 
-		.navbar-default .navbar-nav > .active > a:focus {
-		color: #D5DDED;
-		background: #454da1;
-	}
-	
-	.navbar-default .navbar-nav>li>a:hover {
-		color: #D5DDED;
-		background: #454da1;	 
-	}
-
-
-	#map {
-	height: 100%;
-	margin: 0;
-	}
-
-#connect1 {
-		text-align: center;
-		font-weight: bold;
-}
-
-	#connect2 {
-		background: #454da1;
-		opacity: .8;
-		text-align: center;
-		font-weight: bold;
-	}
-
-	/*added background images to suit my theme*/
-	header {
+/*added background images to suit my theme*/
+header {
 		background-image: url("images/moon-shine.jpg");
 		height: 40vh;
 		background-attachment: fixed;
@@ -84,86 +11,156 @@
 		background-color: rgba(69, 77, 161, .25);
 	}
 
-	body {
+body {
 		background-image: url("images/elegant-design.jpg");
 		background-size: cover;
 	}
 
-	/*added alpha transparency to suit my brand color*/
-	main {
+/*added alpha transparency to suit my brand color*/
+main {
 		border-left: 1vh double #C9C8C2;
 		border-right: 1vh double #C9C8C2;
 		background-color: rgba(17, 17, 150, .35);
 	}
 
-	button {
+button {
 		margin: 5%;
 		font-family: 'Brush Script MT', cursive;
 		font-size: 160%;
 	}
-	.btn {
+.btn {
 		font-size: 150%;
-		margin-bottom: 5%;
+		display: block;
+		margin: 2% auto;
+
 	}
 
-	#aboutMe1 {
+#aboutMe1 {
 		text-align: center;
 	}
 
-	.btn {
-		display: block;
-		margin: 2% auto;
-	}
 
-	/*removing the outline from collapse icon on resume page*/
-	.btn-info {
+/*removing the outline from collapse icon on resume page*/
+.btn-info {
 		background: none;
 		border:none;
 		box-shadow:none;
 	}
 
-	.btn-info:hover, .btn-info:link, .btn-info:visited {
+.btn-info:hover, .btn-info:link, .btn-info:visited {
 		background: none;
 		border:none;
 		box-shadow:none;	
 	}
 
 
-	.bio {
+.bio {
 		font-size: 140%;
-
 	}
 
-	footer {
+footer {
 		background: #4d4a47;
 		text-align: center;
 		font-variant: small-caps;
 	}
 
+img {
+		width: 100%;
+	}
 
-	figcaption {
+	/*setting font color to something readable*/
+body, header, main, html {
+		color: #E8E8E8;
+	}
+
+	/*setting typography to my brand*/
+h1, h2 {
+		text-shadow: 2px 2px 20px #4d4a47;
+		font-family: Garamond;
+	} 
+
+p {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+	/*change default bootstrap navbar color to my brand theme*/
+.navbar {
+		background-image: none;
+		text-shadow: 2px 2px 20px #4d4a47;
+		font-family: Garamond;
+		font-size: 130%;
+		background-color: #181870;
+		border-color: #454da1;
+	}	
+
+.navbar-default .navbar-nav>li>a {
+		color: #B3B8FF;	 
+	}
+
+.navbar-default .navbar-nav > .active > a, 
+		.navbar-default .navbar-nav > .active > a:hover, 
+		.navbar-default .navbar-nav > .active > a:focus {
+		color: #D5DDED;
+		background: #454da1;
+	}
+	
+.navbar-default .navbar-nav>li>a:hover {
+		color: #D5DDED;
+		background: #454da1;	 
+	}
+
+
+/*centering bootstrap menu button on smaller screen*/
+.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+	}
+
+.navbar .navbar-collapse {
+		text-align: center;
+	}
+
+
+
+figcaption {
 		background: #191919;
 		opacity: .7;
 		margin: 2% 0;
 	}
 
-	/*centering bootstrap menu button on smaller screen*/
-	.navbar .navbar-nav {
-		display: inline-block;
-		float: none;
+
+.panel {
+		background: #454da1;
+		border-color: transparent;
 	}
 
-	.navbar .navbar-collapse {
+
+
+#connect1 {
 		text-align: center;
+		font-weight: bold;
+}
+
+#connect2 {
+		background: #454da1;
+		opacity: .8;
+		text-align: center;
+		font-weight: bold;
 	}
 
-
-
-	.icon {
-		margin-bottom: 2%;
-	}
-
-	/*aliging form page header*/
+/*aliging form page header*/
 	#connect, #connectBlurb {
 		text-align: center;
 	}
+
+	
+#map {
+	height: 100%;
+	margin: 0;
+	}
+
+
+.icon {
+	margin-bottom: 2%;
+	}
+
